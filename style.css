@@ -509,6 +509,13 @@ button a{
 
 /* Responsive adjustments */
 @media (max-width: 1024px) {
+    .code{
+        float: none;
+    }
+    .info{
+        margin-top: 600px;
+    }
+        
     .project {
         flex: 0 0 calc(50% - 15px);
         min-width: calc(50% - 15px);
